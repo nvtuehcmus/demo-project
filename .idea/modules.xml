@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spins-be.iml" filepath="$PROJECT_DIR$/.idea/spins-be.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spins-fe/.idea/spins-fe.iml" filepath="$PROJECT_DIR$/../spins-fe/.idea/spins-fe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spins-langding-page/.idea/spins-langding-page.iml" filepath="$PROJECT_DIR$/../spins-langding-page/.idea/spins-langding-page.iml" />
+    </modules>
+  </component>
+</project>

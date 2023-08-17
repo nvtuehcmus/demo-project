@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "rootDir": "./",
+      "outDir": "./build",
+      "esModuleInterop": true,
+      "allowImportingTsExtensions": false,
+      "strict": true,
+      "resolveJsonModule": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "paths": {
+        "app/*": ["app/*"],
+        "shared/*": ["app/shared/*"],
+        "rest/*": ["app/rest/*"]
+      },
+      "plugins": [
+        { "transform": "typescript-transform-paths" }
+      ]
+    },
+  "exclude": ["app/rest/test/*","coverage"],
+}
